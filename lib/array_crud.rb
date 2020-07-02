@@ -3,11 +3,12 @@ def create_an_empty_array
 end
 
 def create_an_array
-  array = ["apple", "banana", "strawberry", "pineapple"]
+  fruits = ["apple", "banana", "strawberry", "pineapple"]
 end
 
 def add_element_to_end_of_array(array, element)
-  array.push(cherry)
+  fruits.push("cherry")
+  puts fruits
 end
 
 def add_element_to_start_of_array(array, element)

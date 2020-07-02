@@ -7,7 +7,7 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  fruits.push("cherry")
+  fruits.push(cherry)
   puts fruits
 end
 
